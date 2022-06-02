@@ -1,0 +1,112 @@
+* {
+
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(https://data2.1freewallpapers.com/detail/paper-paint-brush-composition.jpg);
+    /* background-size: cover; */
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100%;
+}
+
+.main-container {
+    margin-top: 70px;
+}
+
+#title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#color-palette {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#board-size {
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#generate-board-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#black {
+    margin-right: 5px;
+    border: solid black 1px;
+    border-radius: 100%;
+    border-color: black;
+    width: 50px;
+    height: 50px;
+    background-color: black;
+}
+
+#random-color-container-1 {
+    margin-right: 5px;
+    border: solid black 1px;
+    border-radius: 100%;
+    border-color: black;
+    width: 50px;
+    height: 50px;
+}
+#random-color-container-2 {
+    margin-right: 5px;
+    border: solid black 1px;
+    border-radius: 100%;
+    border-color: black;
+    width: 50px;
+    height: 50px;
+}
+
+#random-color-container-3 {
+    margin-right: 5px;
+    border: solid black 1px;
+    border-radius: 100%;
+    border-color: black;
+    width: 50px;
+    height: 50px;
+}
+
+#clear-board-btn {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+
+#clear-board {
+    border-radius: 12%;
+}
+
+.pixel {
+    background-color: white;
+    width: 40px;
+    height: 40px;
+    border: solid black 1px;
+    display: inline-flex;
+}
+
+#pixel-board {
+    width: fit-content;
+    margin: auto;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
