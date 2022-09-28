@@ -9,6 +9,7 @@ const cleaner = document.querySelector('#clear-board');
 const board = document.querySelector('#pixel-board');
 const createBoardButton = document.querySelector('#generate-board');
 const inputBox = document.querySelector('#board-size');
+const randomColorButton = document.querySelector('.random-color-button');
 
 // FUNÇÕES DE EVENTOS
 
@@ -78,6 +79,14 @@ function clearBoard() {
 
 cleaner.addEventListener('click', function () {
     clearBoard();
+});
+
+// Adiciona evento de clique no botão de randomizar as cores
+
+randomColorButton.addEventListener('click', () => {
+  randomColor1.style.backgroundColor = generateRandomColor();
+  randomColor2.style.backgroundColor = generateRandomColor();
+  randomColor3.style.backgroundColor = generateRandomColor();
 });
 
 
