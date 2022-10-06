@@ -5,7 +5,9 @@ const colors = document.querySelectorAll('.color');
 const randomColor1 = document.querySelector('#random-color-container-1');
 const randomColor2 = document.querySelector('#random-color-container-2');
 const randomColor3 = document.querySelector('#random-color-container-3');
-const cleaner = document.querySelector('#clear-board');
+const randomColor4 = document.querySelector('#random-color-container-4');
+const randomColor5 = document.querySelector('#random-color-container-5');
+const cleaner = document.querySelector('#clear-board-btn');
 const board = document.querySelector('#pixel-board');
 const createBoardButton = document.querySelector('#generate-board');
 const inputBox = document.querySelector('#board-size');
@@ -23,6 +25,8 @@ function generateRandomColor() {
 randomColor1.style.backgroundColor = generateRandomColor();
 randomColor2.style.backgroundColor = generateRandomColor();
 randomColor3.style.backgroundColor = generateRandomColor();
+randomColor4.style.backgroundColor = generateRandomColor();
+randomColor5.style.backgroundColor = generateRandomColor();
 
 // Cria função para adicionar classe selected ao elemento selecionado
 
@@ -87,6 +91,8 @@ randomColorButton.addEventListener('click', () => {
   randomColor1.style.backgroundColor = generateRandomColor();
   randomColor2.style.backgroundColor = generateRandomColor();
   randomColor3.style.backgroundColor = generateRandomColor();
+  randomColor4.style.backgroundColor = generateRandomColor();
+  randomColor5.style.backgroundColor = generateRandomColor();
 });
 
 
