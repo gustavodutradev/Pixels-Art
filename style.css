@@ -1,13 +1,10 @@
 * {
-
     margin: 0;
     padding: 0;
 }
 
 body {
-    background-image: url(https://data2.1freewallpapers.com/detail/paper-paint-brush-composition.jpg);
-    /* background-size: cover; */
-    /* background-repeat: no-repeat; */
+    background-image: url('./data/marioBG.jpg');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -43,7 +40,23 @@ body {
     width: 100%;
     display: flex;
     justify-content: center;
+    gap: 5px;
 }
+
+#generate-board-button {
+    background-color: white;
+    width: 50px;
+    height: 20px;
+    border: solid black 1px;
+    border-radius: 5px;
+    text-justify: distribute;
+}
+
+#generate-board-button:hover {
+    -webkit-box-shadow: 3px 3px 10px 3px black;
+    -moz-box-shadow: 3px 3px 10px 3px black;
+    box-shadow: 3px 3px 10px 3px black;
+  }
 
 #black {
     margin-right: 5px;
@@ -55,24 +68,7 @@ body {
     background-color: black;
 }
 
-#random-color-container-1 {
-    margin-right: 5px;
-    border: solid black 1px;
-    border-radius: 100%;
-    border-color: black;
-    width: 50px;
-    height: 50px;
-}
-#random-color-container-2 {
-    margin-right: 5px;
-    border: solid black 1px;
-    border-radius: 100%;
-    border-color: black;
-    width: 50px;
-    height: 50px;
-}
-
-#random-color-container-3 {
+.color {
     margin-right: 5px;
     border: solid black 1px;
     border-radius: 100%;
@@ -82,14 +78,18 @@ body {
 }
 
 #clear-board-btn {
+    background-color: white;
+    width: 50px;
+    height: 20px;
+    border: solid black 1px;
+    border-radius: 5px;
+    text-justify: distribute;
+}
+
+#clear-board-container {
     width: 100%;
     display: flex;
     justify-content: center;
-
-}
-
-#clear-board {
-    border-radius: 12%;
 }
 
 .pixel {
@@ -98,6 +98,25 @@ body {
     height: 40px;
     border: solid black 1px;
     display: inline-flex;
+}
+
+.pixel:hover{
+    transform: scaleX(1.05);
+}
+
+.random-color-button {
+    background-color: white;
+    width: 80px;
+    height: 40px;
+    border: solid black 1px;
+    border-radius: 5px;
+    text-justify: distribute;
+}
+
+.random-color-button:hover {
+  -webkit-box-shadow: 3px 3px 10px 3px black;
+  -moz-box-shadow: 3px 3px 10px 3px black;
+  box-shadow: 3px 3px 10px 3px black;
 }
 
 #pixel-board {
