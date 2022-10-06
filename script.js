@@ -9,7 +9,7 @@ const randomColor4 = document.querySelector('#random-color-container-4');
 const randomColor5 = document.querySelector('#random-color-container-5');
 const cleaner = document.querySelector('#clear-board-btn');
 const board = document.querySelector('#pixel-board');
-const createBoardButton = document.querySelector('#generate-board');
+const createBoardButton = document.querySelector('#generate-board-button');
 const inputBox = document.querySelector('#board-size');
 const randomColorButton = document.querySelector('.random-color-button');
 
